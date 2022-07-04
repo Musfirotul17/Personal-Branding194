@@ -1,0 +1,221 @@
+*{
+	margin:0;
+	padding:0;
+	scroll-behavior: smooth;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.8)), url(Assets/CoverProfile.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.head_nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	color:  white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	padding: 0px 30px;
+	background:  rgb(30, 113, 207);
+}
+
+.main_nav{
+	display: flex;
+	list-style: none;
+	padding: 0px 35px;
+	color: white;
+}
+
+.main_nav li{
+	padding: 20px 20px;
+}
+
+.main_nav a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	
+}
+
+.main_nav li.is_active a{
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+.main_nav li a:hover{
+	border: 1px solid rgba(58, 137, 201, 0.603);
+	color:rgb(73, 124, 202);
+	border-radius: 30px;
+	background-color: white;
+}
+
+.title{
+	display: grid;
+	align-items: center;
+}
+
+.title h1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: rgb(81, 178, 223);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 8%;
+}
+
+.title ul li{
+	list-style: none;
+	text-align: center;
+	font-size: 50px;
+	align-items: center;
+}
+
+.title img{
+	height: 220px;
+	width: 220px;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.check_this{
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.check_this a{
+	text-decoration: none;
+	color: rgb(99, 163, 236);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.up_arrow{
+	margin-left: 1%;
+	margin-top: 2%;
+	transform:rotate(90deg);
+}
+
+footer{
+	background: rgb(0, 0, 0);
+	text-align: center;
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	padding: 50px;
+}
+
+.nav_socmed ul{
+	display: flex;
+	justify-content: center;
+}
+.nav_socmed li{
+	list-style-type: none;
+	padding: 0px 25px;
+}
+
+.nav_socmed img{
+	width: 40px;
+	height: 40px;
+}
+
+/* ini css khusus untuk lamaran.html */
+.content{
+	padding: 7% 20%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(107, 155, 185, 0.8));
+	color: rgb(0, 0, 0);
+	text-align: justify;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.content_background{
+	background: white;
+	padding: 5% 5%;
+	border-radius: 30px;
+}
+
+.content_from{
+	margin-left: 72%;
+}
+
+
+.content_footer{
+	margin-left: 85%;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+ 
+.social-icons{
+    display: flex;
+     
+}
+ 
+.social-icons i,.social i{
+    color:#000000;
+}
+ 
+.social-icons a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.social-icons a:hover i,
+.social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+  
+.copyright{
+    color:#696767;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+ 
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+ 
+.social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+}
+ 
+.social i{
+    font-size:20px;
+    color:#7c7777;
+}
